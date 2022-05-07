@@ -1,4 +1,5 @@
-const express = require('express');
+const express = require('express'); 
+const memeRouter = require('./routers/memeRouter');
 
 const app = express();
 const port = 5000;
